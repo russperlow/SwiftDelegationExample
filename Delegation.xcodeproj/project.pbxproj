@@ -14,6 +14,9 @@
 		D289B4131EFC4DA3005374CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D289B4111EFC4DA3005374CB /* LaunchScreen.storyboard */; };
 		D289B41E1EFC4DA3005374CB /* DelegationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D289B41D1EFC4DA3005374CB /* DelegationTests.swift */; };
 		D289B4291EFC4DA3005374CB /* DelegationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D289B4281EFC4DA3005374CB /* DelegationUITests.swift */; };
+		D289B4371EFC4E01005374CB /* ClassAVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D289B4361EFC4E01005374CB /* ClassAVC.swift */; };
+		D289B4391EFC4E57005374CB /* ClassBVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D289B4381EFC4E57005374CB /* ClassBVC.swift */; };
+		D289B43B1EFC5924005374CB /* ClassCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D289B43A1EFC5924005374CB /* ClassCVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		D289B4241EFC4DA3005374CB /* DelegationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DelegationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D289B4281EFC4DA3005374CB /* DelegationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegationUITests.swift; sourceTree = "<group>"; };
 		D289B42A1EFC4DA3005374CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D289B4361EFC4E01005374CB /* ClassAVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassAVC.swift; sourceTree = "<group>"; };
+		D289B4381EFC4E57005374CB /* ClassBVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassBVC.swift; sourceTree = "<group>"; };
+		D289B43A1EFC5924005374CB /* ClassCVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassCVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,9 @@
 			children = (
 				D289B4081EFC4DA3005374CB /* AppDelegate.swift */,
 				D289B40A1EFC4DA3005374CB /* ViewController.swift */,
+				D289B4361EFC4E01005374CB /* ClassAVC.swift */,
+				D289B4381EFC4E57005374CB /* ClassBVC.swift */,
+				D289B43A1EFC5924005374CB /* ClassCVC.swift */,
 				D289B40C1EFC4DA3005374CB /* Main.storyboard */,
 				D289B40F1EFC4DA3005374CB /* Assets.xcassets */,
 				D289B4111EFC4DA3005374CB /* LaunchScreen.storyboard */,
@@ -261,6 +270,9 @@
 			files = (
 				D289B40B1EFC4DA3005374CB /* ViewController.swift in Sources */,
 				D289B4091EFC4DA3005374CB /* AppDelegate.swift in Sources */,
+				D289B43B1EFC5924005374CB /* ClassCVC.swift in Sources */,
+				D289B4391EFC4E57005374CB /* ClassBVC.swift in Sources */,
+				D289B4371EFC4E01005374CB /* ClassAVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
